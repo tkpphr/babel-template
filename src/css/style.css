@@ -1,0 +1,6 @@
+.foo {
+    color: white;
+    background: darkblue;
+    background-repeat: no-repeat;
+    background-image:url("../../assets/check2.png");
+}

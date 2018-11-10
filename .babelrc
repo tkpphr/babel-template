@@ -1,0 +1,24 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        "transform-class-properties",
+        "transform-object-rest-spread"
+      ],
+      "presets": [
+        "jest",
+        [
+          "env",
+          {
+            "debug": false,
+            "modules": "commonjs",
+            "targets": {
+              "node": "current"
+            },
+            "useBuiltIns": true
+          }
+        ]
+      ]
+    }
+  }
+}
